@@ -2,10 +2,8 @@ prodTienda = [] #Se crea un lista vacia que recibira valores correspondientes al
 valorTotalProds = [] #Se crea una lista vacia que recibira el valor total por cantidad de productos que lleve el usuario
 agregarProd = "si" #Se cra una variable de cadena para condicionar si volver al ciclo o reomperlo
 
-while True:
-    cantidadProd = len(prodTienda)
-    print(prodTienda)
-    print(cantidadProd)
+while True: #Se crea el ciclo while 
+    cantidadProd = len(prodTienda) #Se crea una variable para saber cuantos productos tiene la lista
     agregarProd = input("¿Quiere agregar un nuevo producto? si/no: ") #Se cra una variable de cadena para condicionar si volver al ciclo o reomperlo
     
     if agregarProd == "si": #Se crea un bucle para agregar un producto si el mensaje introducido es igual a la variable
